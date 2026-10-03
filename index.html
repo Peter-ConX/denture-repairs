@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Denture Repairs – Royton, Oldham | Professional Denture Repair Service</title>
+  <meta name="description" content="Specialist denture repair service based in Royton, Oldham. Full dentures, partial dentures, chrome frameworks, broken clasps, relines and more. Call 0161 284 5520." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://denture-repairs-oldham.co.uk/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Denture Repairs – Royton, Oldham" />
+  <meta property="og:description" content="Specialist denture repair service in Royton, Oldham. Call 0161 284 5520." />
+  <meta property="og:locale" content="en_GB" />
+
+  <!-- Google Fonts: Playfair Display + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary:        '#1A3A2A',
+            'primary-mid':  '#234D38',
+            'primary-light':'#2D6347',
+            accent:         '#7B8C3A',
+            'accent-warm':  '#A8B85C',
+            'accent-gold':  '#C4A44A',
+            surface:        '#F8F7F4',
+            'surface-low':  '#F2F0EB',
+            'surface-mid':  '#E8E6DF',
+            'surface-high': '#DDDBD2',
+            ink:            '#1C1C1A',
+            'ink-mid':      '#3D3D38',
+            'ink-soft':     '#6B6B62',
+          },
+          fontFamily: {
+            display: ['"Playfair Display"', 'Georgia', 'serif'],
+            body:    ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; background: #F8F7F4; color: #1C1C1A; }
+
+    /* ── Typography ─────────────────────────────── */
+    .font-display { font-family: 'Playfair Display', Georgia, serif; }
+
+    /* ── Buttons ────────────────────────────────── */
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: #1A3A2A; color: #fff; font-weight: 600; font-size: 0.9rem;
+      padding: 0.75rem 1.75rem; border-radius: 0.375rem;
+      transition: background 0.2s ease, transform 0.15s ease;
+      text-decoration: none; letter-spacing: 0.01em;
+    }
+    .btn-primary:hover { background: #234D38; transform: translateY(-1px); }
+    .btn-ghost {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: transparent; color: #1A3A2A; font-weight: 600; font-size: 0.9rem;
+      padding: 0.75rem 1.75rem; border-radius: 0.375rem; border: 1.5px solid #1A3A2A;
+      transition: background 0.2s ease, color 0.2s ease; text-decoration: none;
+    }
+    .btn-ghost:hover { background: #1A3A2A; color: #fff; }
+    .btn-white {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: #fff; color: #1A3A2A; font-weight: 600; font-size: 0.9rem;
+      padding: 0.75rem 1.75rem; border-radius: 0.375rem;
+      transition: background 0.15s; text-decoration: none;
+    }
+    .btn-white:hover { background: #F2F0EB; }
+
+    /* ── Nav ────────────────────────────────────── */
+    #site-nav { position: fixed; top: 0; left: 0; right: 0; z-index: 50; transition: background 0.3s, box-shadow 0.3s; }
+    #site-nav.scrolled { background: rgba(26,58,42,0.97); backdrop-filter: blur(8px); box-shadow: 0 2px 20px rgba(0,0,0,0.25); }
+
+    /* ── Mobile menu ────────────────────────────── */
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+
+    /* ── Hero ───────────────────────────────────── */
+    .hero-overlay {
+      background: linear-gradient(135deg, rgba(26,58,42,0.88) 0%, rgba(26,58,42,0.65) 55%, rgba(26,58,42,0.30) 100%);
+    }
+
+    /* ── Section dividers ───────────────────────── */
+    .curve-bottom { position: relative; }
+    .curve-bottom::after {
+      content: ''; display: block; position: absolute; bottom: -1px; left: 0; right: 0; height: 48px;
+      background: #F8F7F4;
+      clip-path: ellipse(55% 100% at 50% 100%);
+    }
+    .curve-bottom-dark::after { background: #1A3A2A; }
+    .curve-bottom-low::after { background: #F2F0EB; }
+
+    /* ── Service card ───────────────────────────── */
+    .service-card {
+      background: #fff; border-radius: 0.75rem; padding: 2rem;
+      border: 1px solid #E8E6DF; transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .service-card:hover { box-shadow: 0 8px 32px rgba(26,58,42,0.10); transform: translateY(-2px); }
+    .service-icon {
+      width: 3rem; height: 3rem; background: #F2F0EB; border-radius: 0.5rem;
+      display: flex; align-items: center; justify-content: center; margin-bottom: 1.25rem;
+      color: #1A3A2A;
+    }
+
+    /* ── Step ───────────────────────────────────── */
+    .step-number {
+      width: 2.5rem; height: 2.5rem; border-radius: 50%;
+      background: #1A3A2A; color: #fff; font-weight: 700; font-size: 1rem;
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+
+    /* ── FAQ ────────────────────────────────────── */
+    .faq-content { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+    .faq-content.open { max-height: 400px; }
+    .faq-icon { transition: transform 0.3s ease; }
+    .faq-icon.open { transform: rotate(180deg); }
+
+    /* ── Gallery ────────────────────────────────── */
+    .gallery-img { border-radius: 0.75rem; overflow: hidden; aspect-ratio: 4/3; }
+    .gallery-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+    .gallery-img:hover img { transform: scale(1.04); }
+
+    /* ── Before/after badge ─────────────────────── */
+    .badge-before { background: #c0392b; color: #fff; }
+    .badge-after  { background: #1A3A2A; color: #fff; }
+
+    /* ── Form ───────────────────────────────────── */
+    .form-input {
+      width: 100%; background: #F2F0EB; border: 1.5px solid #DDDBD2; border-radius: 0.375rem;
+      padding: 0.75rem 1rem; font-size: 0.95rem; color: #1C1C1A; outline: none;
+      transition: border-color 0.2s;
+    }
+    .form-input:focus { border-color: #1A3A2A; }
+    .form-label { display: block; font-weight: 500; font-size: 0.875rem; margin-bottom: 0.375rem; color: #3D3D38; }
+
+    /* ── Sticky mobile bar ──────────────────────── */
+    #sticky-bar { display: none; }
+    @media (max-width: 1023px) { #sticky-bar { display: flex; } }
+
+    /* ── Focus visible ──────────────────────────── */
+    :focus-visible { outline: 2px solid #A8B85C; outline-offset: 3px; }
+
+    /* ── Reduced motion ─────────────────────────── */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { transition: none !important; animation: none !important; }
+    }
+  </style>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Denture Repairs",
+    "description": "Specialist denture repair service in Royton, Oldham. Full and partial dentures, chrome frameworks, relines, broken clasps and teeth.",
+    "telephone": "+441612845520",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "6 Edge Hill Road",
+      "addressLocality": "Royton",
+      "addressRegion": "Oldham",
+      "postalCode": "OL2 6BL",
+      "addressCountry": "GB"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 53.5599348,
+      "longitude": -2.1178944
+    }
+  }
+  </script>
+
+  <script>
+    // Central config
+    const DR = {
+      name:    'Denture Repairs',
+      phone:   '0161 284 5520',
+      telLink: 'tel:+441612845520',
+      waLink:  'https://wa.me/441612845520',
+      address: '6 Edge Hill Rd, Royton, Oldham OL2 6BL',
+      mapsUrl: 'https://maps.google.com/?q=53.5599348,-2.1178944',
+    };
+  </script>
+</head>
+
+<body class="bg-surface text-ink">
+
+<!-- ══════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════ -->
+<header id="site-nav" class="bg-primary" aria-label="Site navigation">
+  <div class="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
+
+    <!-- Logo -->
+    <a href="#top" class="flex items-center gap-3">
+      <img src="assets/logo.png" alt="Denture Repairs logo" class="h-10 w-auto" />
+      <span class="font-display text-white text-lg font-semibold hidden sm:block leading-tight">
+        Denture<br><span class="text-accent-warm font-normal text-sm">Repairs</span>
+      </span>
+    </a>
+
+    <!-- Desktop nav -->
+    <nav class="hidden lg:flex items-center gap-7" aria-label="Primary navigation">
+      <a href="#services" class="text-white/80 hover:text-white text-sm font-medium transition-colors">Services</a>
+      <a href="#gallery" class="text-white/80 hover:text-white text-sm font-medium transition-colors">Gallery</a>
+      <a href="#how-it-works" class="text-white/80 hover:text-white text-sm font-medium transition-colors">How It Works</a>
+      <a href="#faqs" class="text-white/80 hover:text-white text-sm font-medium transition-colors">FAQs</a>
+      <a href="#location" class="text-white/80 hover:text-white text-sm font-medium transition-colors">Find Us</a>
+    </nav>
+
+    <!-- CTA + mobile toggle -->
+    <div class="flex items-center gap-3">
+      <a href="tel:+441612845520" class="hidden lg:inline-flex items-center gap-2 btn-white text-sm px-4 py-2">
+        <!-- Phone icon -->
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.81-.81a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+        0161 284 5520
+      </a>
+      <button id="mobile-menu-btn" class="lg:hidden p-2 text-white" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <!-- Menu icon -->
+        <svg id="menu-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+        <!-- Close icon -->
+        <svg id="close-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="hidden"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="lg:hidden bg-primary-mid border-t border-white/10" role="navigation" aria-label="Mobile navigation">
+    <nav class="px-6 py-4 flex flex-col gap-1">
+      <a href="#services" class="mobile-nav-link text-white/90 hover:text-white hover:bg-white/10 px-3 py-2 rounded transition-colors text-sm font-medium">Services</a>
+      <a href="#gallery" class="mobile-nav-link text-white/90 hover:text-white hover:bg-white/10 px-3 py-2 rounded transition-colors text-sm font-medium">Gallery</a>
+      <a href="#how-it-works" class="mobile-nav-link text-white/90 hover:text-white hover:bg-white/10 px-3 py-2 rounded transition-colors text-sm font-medium">How It Works</a>
+      <a href="#faqs" class="mobile-nav-link text-white/90 hover:text-white hover:bg-white/10 px-3 py-2 rounded transition-colors text-sm font-medium">FAQs</a>
+      <a href="#location" class="mobile-nav-link text-white/90 hover:text-white hover:bg-white/10 px-3 py-2 rounded transition-colors text-sm font-medium">Find Us</a>
+      <a href="#contact" class="mobile-nav-link mt-3 btn-primary justify-center text-center">Get in Touch</a>
+    </nav>
+  </div>
+</header>
+
+
+<!-- ══════════════════════════════════════
+     HERO
+══════════════════════════════════════ -->
+<section id="top" class="relative min-h-screen flex items-center" style="background: #1A3A2A;">
+  <!-- Background photo -->
+  <div class="absolute inset-0 overflow-hidden">
+    <img src="assets/photo-full-denture.jpg" alt="Close-up of a well-crafted full denture" class="w-full h-full object-cover object-center opacity-40" />
+    <div class="hero-overlay absolute inset-0"></div>
+  </div>
+
+  <div class="relative max-w-7xl mx-auto px-6 pt-24 pb-20 lg:pt-32 lg:pb-28">
+    <div class="max-w-2xl">
+      <!-- Overline -->
+      <p class="text-accent-warm text-sm font-semibold tracking-widest uppercase mb-4">Royton, Oldham</p>
+
+      <h1 class="font-display text-white text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+        Your Dentures.<br />
+        <em class="font-normal text-accent-warm">Repaired Properly.</em>
+      </h1>
+
+      <p class="text-white/80 text-lg sm:text-xl leading-relaxed mb-10 max-w-xl">
+        A dedicated denture repair service serving Oldham, Rochdale, and Greater Manchester. We work on full dentures, partial dentures, chrome frameworks and more — quickly and carefully.
+      </p>
+
+      <div class="flex flex-wrap gap-4">
+        <a href="tel:+441612845520" class="btn-white">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.81-.81a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+          Call 0161 284 5520
+        </a>
+        <a href="#contact" class="btn-ghost border-white text-white hover:bg-white hover:text-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Send an Enquiry
+        </a>
+      </div>
+
+      <!-- Trust points -->
+      <div class="mt-12 flex flex-wrap gap-6">
+        <div class="flex items-center gap-2 text-white/70 text-sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A8B85C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          Full &amp; partial dentures
+        </div>
+        <div class="flex items-center gap-2 text-white/70 text-sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A8B85C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          Chrome frameworks
+        </div>
+        <div class="flex items-center gap-2 text-white/70 text-sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A8B85C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          Serving Greater Manchester
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll cue -->
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-1 text-white/40 text-xs">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="animate-bounce" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     INTRO / ABOUT
+══════════════════════════════════════ -->
+<section class="py-20 lg:py-28 bg-surface" aria-label="About us">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+      <!-- Text -->
+      <div>
+        <p class="text-accent text-sm font-semibold tracking-widest uppercase mb-3">About Us</p>
+        <h2 class="font-display text-ink text-3xl sm:text-4xl font-bold leading-snug mb-6">
+          A specialist service.<br /><em class="font-normal text-primary-mid">Right here in Oldham.</em>
+        </h2>
+        <p class="text-ink-soft text-lg leading-relaxed mb-5">
+          Denture Repairs is a dedicated repair workshop based in Royton. We focus entirely on denture work — repairs, relines, and adjustments — for people across the Oldham area and beyond.
+        </p>
+        <p class="text-ink-soft leading-relaxed mb-5">
+          Whether you've broken a tooth off your denture, cracked the base plate, need a clasp rebuilt on a partial, or would simply like your dentures professionally cleaned and polished, get in touch and we'll tell you honestly what can be done.
+        </p>
+        <p class="text-ink-soft leading-relaxed">
+          We're accessible, straightforward, and focused on getting your dentures working comfortably again.
+        </p>
+      </div>
+
+      <!-- Feature blocks -->
+      <div class="grid sm:grid-cols-2 gap-5">
+        <div class="bg-surface-low rounded-xl p-6 border border-surface-mid">
+          <div class="text-primary mb-3">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3 class="font-semibold text-ink mb-2">Local to Oldham</h3>
+          <p class="text-ink-soft text-sm leading-relaxed">Based in Royton, right on your doorstep. Easy to reach from across Oldham, Rochdale and Bury.</p>
+        </div>
+        <div class="bg-surface-low rounded-xl p-6 border border-surface-mid">
+          <div class="text-primary mb-3">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3 class="font-semibold text-ink mb-2">Quick Turnaround</h3>
+          <p class="text-ink-soft text-sm leading-relaxed">Many repairs can be completed promptly. Contact us to discuss your specific situation and timeframe.</p>
+        </div>
+        <div class="bg-surface-low rounded-xl p-6 border border-surface-mid">
+          <div class="text-primary mb-3">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="font-semibold text-ink mb-2">Careful Handling</h3>
+          <p class="text-ink-soft text-sm leading-relaxed">Your dentures are handled with care throughout. We take the time to do the job properly.</p>
+        </div>
+        <div class="bg-surface-low rounded-xl p-6 border border-surface-mid">
+          <div class="text-primary mb-3">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3 class="font-semibold text-ink mb-2">Honest Advice</h3>
+          <p class="text-ink-soft text-sm leading-relaxed">We'll give you a straightforward assessment of what your dentures need — no pressure, no jargon.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     SERVICES
+══════════════════════════════════════ -->
+<section id="services" class="py-20 lg:py-28 bg-surface-low" aria-label="Our services">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-14">
+      <p class="text-accent text-sm font-semibold tracking-widest uppercase mb-3">What We Do</p>
+      <h2 class="font-display text-ink text-3xl sm:text-4xl font-bold leading-snug">
+        Repairs &amp; services<br /><em class="font-normal text-primary-mid">we can help with</em>
+      </h2>
+      <p class="text-ink-soft mt-4 max-w-xl mx-auto leading-relaxed">
+        From a single broken tooth to a cracked base plate or ill-fitting partial — we handle a wide range of denture repair work.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- 1 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        </div>
+        <h3 class="font-semibold text-ink text-lg mb-2">Broken or Missing Teeth</h3>
+        <p class="text-ink-soft text-sm leading-relaxed">Replacement of individual teeth that have come loose, cracked, or broken off — on full or partial dentures.</p>
+      </div>
+
+      <!-- 2 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><circle cx="12" cy="12" r="10"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        </div>
+        <h3 class="font-semibold text-ink text-lg mb-2">Cracked or Split Base</h3>
+        <p class="text-ink-soft text-sm leading-relaxed">Repair of hairline cracks, splits, or full breaks in the denture plate — whether acrylic or partial base.</p>
+      </div>
+
+      <!-- 3 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+        </div>
+        <h3 class="font-semibold text-ink text-lg mb-2">Chrome Partial Frameworks</h3>
+        <p class="text-ink-soft text-sm leading-relaxed">Repairs to metal partial dentures including broken clasps, framework adjustments, and tooth additions.</p>
+      </div>
+
+      <!-- 4 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+        </div>
+        <h3 class="font-semibold text-ink text-lg mb-2">Relines</h3>
+        <p class="text-ink-soft text-sm leading-relaxed">When your dentures have become loose over time, a reline can improve their fit against the gum surface.</p>
+      </div>
+
+      <!-- 5 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/><path d="M13 13l6 6"/></svg>
+        </div>
+        <h3 class="font-semibold text-ink text-lg mb-2">Clasp Repairs</h3>
+        <p class="text-ink-soft text-sm leading-relaxed">Replacement or adjustment of wire and cast clasps on partial dentures that have snapped or no longer grip.</p>
+      </div>
+
+      <!-- 6 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M4.93 4.93l14.14 14.14"/></svg>
+        </div>
+        <h3 class="font-semibold text-ink text-lg mb-2">Cleaning &amp; Polish</h3>
+        <p class="text-ink-soft text-sm leading-relaxed">Professional cleaning and polishing to remove staining, tartar, and surface marks — restoring a fresh appearance.</p>
+      </div>
+
+    </div>
+
+    <!-- Call to action -->
+    <div class="mt-12 text-center">
+      <p class="text-ink-soft mb-5">Not sure if we can help? Just ask — we're happy to advise.</p>
+      <a href="tel:+441612845520" class="btn-primary mx-auto">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.81-.81a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+        Call Us Today
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     PHOTO GALLERY
+══════════════════════════════════════ -->
+<section id="gallery" class="py-20 lg:py-28 bg-surface" aria-label="Work gallery">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="text-accent text-sm font-semibold tracking-widest uppercase mb-3">Our Work</p>
+      <h2 class="font-display text-ink text-3xl sm:text-4xl font-bold leading-snug">
+        Real repairs,<br /><em class="font-normal text-primary-mid">real results</em>
+      </h2>
+      <p class="text-ink-soft mt-4 max-w-xl mx-auto leading-relaxed">
+        Photos from actual repair jobs — showing the type of work we carry out on full and partial dentures.
+      </p>
+    </div>
+
+    <!-- Before / After hero -->
+    <div class="rounded-2xl overflow-hidden border border-surface-mid bg-white shadow-sm mb-10">
+      <div class="grid md:grid-cols-2">
+        <div class="relative">
+          <img src="assets/before-after.jpg" alt="Full denture before and after professional repair — top image shows stained and worn dentures, bottom shows them clean and restored" class="w-full h-72 md:h-80 object-cover object-top" />
+          <span class="absolute top-4 left-4 badge-before text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Before &amp; After</span>
+        </div>
+        <div class="p-8 flex flex-col justify-center">
+          <h3 class="font-display text-2xl font-bold text-ink mb-4">Full Denture Clean &amp; Repair</h3>
+          <p class="text-ink-soft leading-relaxed mb-4">
+            A common job we see — full dentures that have built up staining and surface deposits over time. After professional cleaning and attention, the difference is clear.
+          </p>
+          <p class="text-ink-soft leading-relaxed">
+            If your dentures look or feel like the before image, get in touch and we can discuss what's possible.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallery grid -->
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+      <div class="gallery-img">
+        <img src="assets/photo-chrome-partial.jpg" alt="Chrome partial denture framework with metal clasps" />
+      </div>
+
+      <div class="gallery-img">
+        <img src="assets/photo-repair-work.jpg" alt="Partial denture repair work in progress" />
+      </div>
+
+      <div class="gallery-img">
+        <img src="assets/photo-before-after.jpg" alt="Before and after comparison of chrome partial denture repair" />
+      </div>
+
+      <div class="gallery-img sm:col-span-2 lg:col-span-2">
+        <img src="assets/photo-full-denture.jpg" alt="Clean full upper denture showing good condition after repair" style="object-position: center 30%;" />
+      </div>
+
+      <div class="gallery-img">
+        <img src="assets/photo-broken-partial.jpg" alt="Broken partial denture awaiting repair" />
+      </div>
+
+    </div>
+
+    <p class="text-center text-ink-soft text-sm mt-8 italic">All photos are from actual repair jobs. Results vary by individual case.</p>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     HOW IT WORKS
+══════════════════════════════════════ -->
+<section id="how-it-works" class="py-20 lg:py-28 bg-primary text-white" aria-label="How it works">
+  <div class="max-w-5xl mx-auto px-6">
+    <div class="text-center mb-14">
+      <p class="text-accent-warm text-sm font-semibold tracking-widest uppercase mb-3">The Process</p>
+      <h2 class="font-display text-white text-3xl sm:text-4xl font-bold leading-snug">
+        Simple, straightforward,<br /><em class="font-normal text-accent-warm">no fuss</em>
+      </h2>
+      <p class="text-white/70 mt-4 max-w-xl mx-auto leading-relaxed">
+        Getting your dentures repaired doesn't need to be complicated. Here's how it typically works.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+      <div class="flex flex-col items-center text-center">
+        <div class="step-number mb-4">1</div>
+        <div class="mb-3 text-accent-warm">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.81-.81a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+        </div>
+        <h3 class="font-semibold text-white mb-2">Get in Touch</h3>
+        <p class="text-white/60 text-sm leading-relaxed">Call us or send a message. Describe the problem and we'll let you know if we can help.</p>
+      </div>
+
+      <div class="flex flex-col items-center text-center">
+        <div class="step-number mb-4">2</div>
+        <div class="mb-3 text-accent-warm">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3 class="font-semibold text-white mb-2">Bring Your Dentures</h3>
+        <p class="text-white/60 text-sm leading-relaxed">Drop your dentures in at our Royton address. We'll take a look and give you a clear picture of what's needed.</p>
+      </div>
+
+      <div class="flex flex-col items-center text-center">
+        <div class="step-number mb-4">3</div>
+        <div class="mb-3 text-accent-warm">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        <h3 class="font-semibold text-white mb-2">Repair Carried Out</h3>
+        <p class="text-white/60 text-sm leading-relaxed">We carry out the repair carefully. Turnaround depends on the type of work — we'll give you a realistic timeframe.</p>
+      </div>
+
+      <div class="flex flex-col items-center text-center">
+        <div class="step-number mb-4">4</div>
+        <div class="mb-3 text-accent-warm">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h3 class="font-semibold text-white mb-2">Collect &amp; Continue</h3>
+        <p class="text-white/60 text-sm leading-relaxed">Pick up your repaired dentures. If anything doesn't feel right, come back and we'll take another look.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     FAQs
+══════════════════════════════════════ -->
+<section id="faqs" class="py-20 lg:py-28 bg-surface" aria-label="Frequently asked questions">
+  <div class="max-w-3xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="text-accent text-sm font-semibold tracking-widest uppercase mb-3">FAQs</p>
+      <h2 class="font-display text-ink text-3xl sm:text-4xl font-bold leading-snug">
+        Common questions
+      </h2>
+    </div>
+
+    <div class="space-y-3" id="faq-list">
+
+      <!-- FAQ 1 -->
+      <div class="bg-white border border-surface-mid rounded-xl overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between p-5 text-left" aria-expanded="false">
+          <span class="font-semibold text-ink pr-4">Can you repair any type of denture?</span>
+          <svg class="faq-icon flex-shrink-0 text-primary" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-content">
+          <p class="px-5 pb-5 text-ink-soft leading-relaxed">We work on most types of denture including full acrylic dentures, acrylic partial dentures, and chrome (cobalt-chrome) partial frameworks. If you're unsure, just describe what you have when you call or message us.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="bg-white border border-surface-mid rounded-xl overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between p-5 text-left" aria-expanded="false">
+          <span class="font-semibold text-ink pr-4">How long will the repair take?</span>
+          <svg class="faq-icon flex-shrink-0 text-primary" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-content">
+          <p class="px-5 pb-5 text-ink-soft leading-relaxed">It depends on the repair needed. Simple repairs can often be done more quickly than complex framework work. We'll give you an honest timeframe when we see your dentures in person.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="bg-white border border-surface-mid rounded-xl overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between p-5 text-left" aria-expanded="false">
+          <span class="font-semibold text-ink pr-4">Do I need to make an appointment?</span>
+          <svg class="faq-icon flex-shrink-0 text-primary" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-content">
+          <p class="px-5 pb-5 text-ink-soft leading-relaxed">We recommend calling ahead so we can expect you and make sure someone is available. Give us a ring on 0161 284 5520 and we'll arrange a suitable time.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="bg-white border border-surface-mid rounded-xl overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between p-5 text-left" aria-expanded="false">
+          <span class="font-semibold text-ink pr-4">What if my dentures are beyond repair?</span>
+          <svg class="faq-icon flex-shrink-0 text-primary" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-content">
+          <p class="px-5 pb-5 text-ink-soft leading-relaxed">If a repair isn't practical or wouldn't give you a reliable long-term result, we'll tell you so honestly. We won't carry out work that isn't going to help you.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="bg-white border border-surface-mid rounded-xl overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between p-5 text-left" aria-expanded="false">
+          <span class="font-semibold text-ink pr-4">Do you cover areas outside Oldham?</span>
+          <svg class="faq-icon flex-shrink-0 text-primary" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-content">
+          <p class="px-5 pb-5 text-ink-soft leading-relaxed">We're based in Royton, Oldham, but we see patients from across Rochdale, Bury, and the wider Greater Manchester area. If you're further afield and willing to travel, do get in touch.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     LOCATION + HOURS
+══════════════════════════════════════ -->
+<section id="location" class="py-20 lg:py-28 bg-surface-low" aria-label="Location and opening hours">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="text-accent text-sm font-semibold tracking-widest uppercase mb-3">Find Us</p>
+      <h2 class="font-display text-ink text-3xl sm:text-4xl font-bold leading-snug">
+        Based in Royton,<br /><em class="font-normal text-primary-mid">Oldham</em>
+      </h2>
+    </div>
+
+    <div class="grid lg:grid-cols-5 gap-8 items-start">
+
+      <!-- Info panel -->
+      <div class="lg:col-span-2 space-y-7">
+
+        <!-- Address -->
+        <div class="bg-white rounded-xl p-6 border border-surface-mid">
+          <div class="flex items-start gap-3 mb-4">
+            <div class="text-primary mt-0.5">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-ink mb-1">Address</h3>
+              <address class="not-italic text-ink-soft text-sm leading-relaxed">
+                6 Edge Hill Road<br />
+                Royton<br />
+                Oldham OL2 6BL<br />
+                United Kingdom
+              </address>
+              <a href="https://maps.google.com/?q=53.5599348,-2.1178944" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-primary text-sm font-medium mt-2 hover:underline">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Get Directions
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="bg-white rounded-xl p-6 border border-surface-mid">
+          <div class="flex items-start gap-3">
+            <div class="text-primary mt-0.5">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.81-.81a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-ink mb-1">Telephone</h3>
+              <a href="tel:+441612845520" class="text-primary font-semibold text-lg hover:underline">0161 284 5520</a>
+              <p class="text-ink-soft text-xs mt-1">Call to discuss your repair or arrange a visit</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hours note -->
+        <div class="bg-primary/5 rounded-xl p-5 border border-primary/10">
+          <div class="flex items-start gap-3">
+            <div class="text-primary mt-0.5">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <p class="text-ink-soft text-sm leading-relaxed">
+              <strong class="text-ink">Please call ahead</strong> to confirm availability before visiting. We recommend checking in first so we can be ready for you.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Map -->
+      <div class="lg:col-span-3 rounded-2xl overflow-hidden border border-surface-mid shadow-sm h-96 lg:h-full min-h-80">
+        <iframe
+          title="Denture Repairs location map — 6 Edge Hill Road, Royton, Oldham"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.5!2d-2.1178944!3d53.5599348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487ba1e8e12c4a21%3A0xb7e1fcb3b0f12345!2s6+Edge+Hill+Rd%2C+Royton%2C+Oldham+OL2+6BL!5e0!3m2!1sen!2suk!4v1696276800000!5m2!1sen!2suk"
+          width="100%" height="100%"
+          style="border:0; min-height: 320px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     CONTACT FORM
+══════════════════════════════════════ -->
+<section id="contact" class="py-20 lg:py-28 bg-surface" aria-label="Contact and enquiry">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid lg:grid-cols-2 gap-14 items-start">
+
+      <!-- Left: copy -->
+      <div>
+        <p class="text-accent text-sm font-semibold tracking-widest uppercase mb-3">Contact</p>
+        <h2 class="font-display text-ink text-3xl sm:text-4xl font-bold leading-snug mb-6">
+          Ready to get your<br /><em class="font-normal text-primary-mid">dentures sorted?</em>
+        </h2>
+        <p class="text-ink-soft leading-relaxed mb-5">
+          Send us a message below and we'll be in touch via WhatsApp as quickly as we can. Or if you'd prefer, just give us a ring directly.
+        </p>
+        <a href="tel:+441612845520" class="inline-flex items-center gap-2 text-primary font-semibold text-lg hover:underline mb-8">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.81-.81a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+          0161 284 5520
+        </a>
+
+        <!-- What happens next -->
+        <div class="bg-surface-low rounded-xl p-6 border border-surface-mid">
+          <h3 class="font-semibold text-ink mb-4 flex items-center gap-2">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1A3A2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            What happens next
+          </h3>
+          <ul class="space-y-3 text-sm text-ink-soft">
+            <li class="flex items-start gap-2">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#A8B85C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="mt-0.5 flex-shrink-0" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Your message goes to our WhatsApp — we'll reply to confirm receipt
+            </li>
+            <li class="flex items-start gap-2">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#A8B85C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="mt-0.5 flex-shrink-0" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              We'll discuss the problem and agree a time to see your dentures
+            </li>
+            <li class="flex items-start gap-2">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#A8B85C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="mt-0.5 flex-shrink-0" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              We'll assess in person and give you a clear price before any work begins
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Right: form -->
+      <div class="bg-white rounded-2xl shadow-sm border border-surface-mid p-8">
+        <h3 class="font-display text-xl font-bold text-ink mb-6">Send an Enquiry</h3>
+        <form id="enquiry-form" novalidate>
+          <div class="grid sm:grid-cols-2 gap-5 mb-5">
+            <div>
+              <label class="form-label" for="f-name">Your name</label>
+              <input class="form-input" type="text" id="f-name" name="name" placeholder="Jane Smith" autocomplete="name" required />
+            </div>
+            <div>
+              <label class="form-label" for="f-phone">Phone number</label>
+              <input class="form-input" type="tel" id="f-phone" name="phone" placeholder="07xxx xxxxxx" autocomplete="tel" />
+            </div>
+          </div>
+          <div class="mb-5">
+            <label class="form-label" for="f-service">Type of repair</label>
+            <select class="form-input" id="f-service" name="service">
+              <option value="">Select if known…</option>
+              <option value="Broken or missing tooth">Broken or missing tooth</option>
+              <option value="Cracked or split base">Cracked or split base</option>
+              <option value="Chrome partial repair">Chrome partial repair</option>
+              <option value="Reline">Reline</option>
+              <option value="Clasp repair">Clasp repair</option>
+              <option value="Cleaning and polish">Cleaning and polish</option>
+              <option value="Not sure">Not sure — I need advice</option>
+            </select>
+          </div>
+          <div class="mb-6">
+            <label class="form-label" for="f-message">Tell us about the problem</label>
+            <textarea class="form-input" id="f-message" name="message" rows="4" placeholder="Briefly describe what's happened to your denture…" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary w-full justify-center text-base py-3.5">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            Send via WhatsApp
+          </button>
+          <!-- Success message -->
+          <div id="form-success" role="alert" aria-live="assertive" class="hidden mt-5 bg-green-50 border border-green-200 rounded-lg p-4">
+            <div class="flex items-start gap-3">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-0.5" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <div>
+                <p class="font-semibold text-green-800 text-sm">Opening WhatsApp…</p>
+                <p class="text-green-700 text-sm mt-0.5">Your message is ready to send. We'll be in touch as soon as we can.</p>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer class="bg-primary text-white" aria-label="Site footer">
+  <div class="max-w-7xl mx-auto px-6 py-14">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-10">
+
+      <!-- Brand -->
+      <div>
+        <img src="assets/logo.png" alt="Denture Repairs logo" class="h-12 w-auto mb-4" />
+        <p class="text-white/60 text-sm leading-relaxed">
+          Specialist denture repair service based in Royton, Oldham. Serving Greater Manchester.
+        </p>
+      </div>
+
+      <!-- Quick links -->
+      <div>
+        <h3 class="font-semibold text-white mb-4 text-sm tracking-wide uppercase">Quick Links</h3>
+        <ul class="space-y-2 text-sm text-white/60">
+          <li><a href="#services" class="hover:text-white transition-colors">Services</a></li>
+          <li><a href="#gallery" class="hover:text-white transition-colors">Gallery</a></li>
+          <li><a href="#how-it-works" class="hover:text-white transition-colors">How It Works</a></li>
+          <li><a href="#faqs" class="hover:text-white transition-colors">FAQs</a></li>
+          <li><a href="#location" class="hover:text-white transition-colors">Find Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h3 class="font-semibold text-white mb-4 text-sm tracking-wide uppercase">Contact</h3>
+        <address class="not-italic text-sm text-white/60 space-y-2">
+          <p>6 Edge Hill Road, Royton<br />Oldham OL2 6BL</p>
+          <p>
+            <a href="tel:+441612845520" class="hover:text-white transition-colors">0161 284 5520</a>
+          </p>
+        </address>
+      </div>
+
+    </div>
+
+    <div class="border-t border-white/10 pt-7 flex flex-col sm:flex-row items-center justify-between gap-4 text-white/40 text-xs">
+      <p>&copy; <span id="footer-year"></span> Denture Repairs, Royton. All rights reserved.</p>
+      <p>6 Edge Hill Rd, Royton, Oldham OL2 6BL &middot; +44 161 284 5520</p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ══════════════════════════════════════
+     STICKY MOBILE BAR
+══════════════════════════════════════ -->
+<div id="sticky-bar" class="fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-surface-mid shadow-lg flex divide-x divide-surface-mid lg:hidden">
+  <a href="tel:+441612845520" class="flex-1 flex flex-col items-center justify-center py-3 gap-1 text-primary hover:bg-surface-low transition-colors">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.81-.81a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+    <span class="text-xs font-medium">Call</span>
+  </a>
+  <a href="https://maps.google.com/?q=53.5599348,-2.1178944" target="_blank" rel="noopener" class="flex-1 flex flex-col items-center justify-center py-3 gap-1 text-primary hover:bg-surface-low transition-colors">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    <span class="text-xs font-medium">Directions</span>
+  </a>
+  <a href="#contact" class="flex-1 flex flex-col items-center justify-center py-3 gap-1 bg-primary text-white hover:bg-primary-mid transition-colors">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    <span class="text-xs font-medium">Enquire</span>
+  </a>
+</div>
+
+<!-- Spacer for sticky bar on mobile -->
+<div class="h-16 lg:hidden" aria-hidden="true"></div>
+
+
+<!-- ══════════════════════════════════════
+     JAVASCRIPT
+══════════════════════════════════════ -->
+<script>
+  // ── Footer year ──────────────────────────
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+  // ── Nav scroll effect ────────────────────
+  const nav = document.getElementById('site-nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 60);
+  }, { passive: true });
+
+  // ── Mobile menu ──────────────────────────
+  const menuBtn  = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const menuIcon = document.getElementById('menu-icon-svg');
+  const closeIcon = document.getElementById('close-icon-svg');
+
+  function closeMobileMenu() {
+    mobileMenu.classList.remove('open');
+    menuBtn.setAttribute('aria-expanded', 'false');
+    menuIcon.classList.remove('hidden');
+    closeIcon.classList.add('hidden');
+    document.body.style.overflow = '';
+  }
+
+  menuBtn.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.contains('open');
+    if (isOpen) {
+      closeMobileMenu();
+    } else {
+      mobileMenu.classList.add('open');
+      menuBtn.setAttribute('aria-expanded', 'true');
+      menuIcon.classList.add('hidden');
+      closeIcon.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+  });
+
+  // Close on nav link click
+  document.querySelectorAll('.mobile-nav-link').forEach(link => {
+    link.addEventListener('click', closeMobileMenu);
+  });
+
+  // ── FAQ accordion ────────────────────────
+  document.querySelectorAll('.faq-trigger').forEach(trigger => {
+    trigger.addEventListener('click', () => {
+      const content = trigger.nextElementSibling;
+      const icon    = trigger.querySelector('.faq-icon');
+      const isOpen  = content.classList.contains('open');
+
+      // Close all
+      document.querySelectorAll('.faq-content').forEach(c => c.classList.remove('open'));
+      document.querySelectorAll('.faq-icon').forEach(i => i.classList.remove('open'));
+      document.querySelectorAll('.faq-trigger').forEach(t => t.setAttribute('aria-expanded', 'false'));
+
+      // Open clicked (if it wasn't open)
+      if (!isOpen) {
+        content.classList.add('open');
+        icon.classList.add('open');
+        trigger.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  // ── Enquiry form → WhatsApp ──────────────
+  document.getElementById('enquiry-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const name    = document.getElementById('f-name').value.trim();
+    const phone   = document.getElementById('f-phone').value.trim();
+    const service = document.getElementById('f-service').value;
+    const message = document.getElementById('f-message').value.trim();
+
+    if (!name || !message) {
+      alert('Please fill in your name and describe the problem before sending.');
+      return;
+    }
+
+    let text = `Hello, my name is ${name}.`;
+    if (phone) text += ` My number is ${phone}.`;
+    if (service) text += `\n\nRepair type: ${service}.`;
+    text += `\n\n${message}`;
+    text += '\n\n[Sent from denture-repairs website]';
+
+    const waUrl = `https://wa.me/441612845520?text=${encodeURIComponent(text)}`;
+    window.open(waUrl, '_blank');
+    document.getElementById('form-success').classList.remove('hidden');
+  });
+</script>
+
+</body>
+</html>
